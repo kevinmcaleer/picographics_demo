@@ -17,10 +17,17 @@ yellow = graphics.create_pen(255,255,0)
 cyan = graphics.create_pen(0,255,255)
 red = graphics.create_pen(255,0,0)
 
-graphics.set_pen(red)
+
+graphics.set_pen(yellow)
 x = 1
 y = 1
 width = 10
 height = 10
 graphics.rectangle(x,y,width,height)
+
+
+graphics.set_pen(red)
+graphics.pixel(2,1)
+graphics.set_pen(cyan)
+graphics.pixel(3,1)
 stellar.update(graphics)
