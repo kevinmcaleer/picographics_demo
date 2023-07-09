@@ -1,4 +1,4 @@
-from picographics import PicoGraphics, PEN_P8, DISPLAY_COSMIC_UNICORN as DISPLAY
+from picographics import PicoGraphics, DISPLAY_COSMIC_UNICORN as DISPLAY
 display = PicoGraphics(display=DISPLAY)
 from cosmic import CosmicUnicorn
 # from galactic import StellarUnicorn
